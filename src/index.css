@@ -13,7 +13,6 @@ code {
 }
 
 .app {
-  background-color: azure;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,35 +27,18 @@ a {
   color: black;
 }
 
-.under-construction {
-  font-size: 16vw;
-  font-weight: bold;
+.logo {
+  width: 80vw;
 }
 
-.contact-us {
-  margin-top: 8vh;
-}
-
-.contact-us-title {
-  font-weight: bold;
-  font-size: 10vw;
-  margin-bottom: 2vh;
+.email {
+  margin-top: 5vh;
+  font-size: 20px;
 }
 
 /* Desktop version */
 @media (min-width: 801px) {
-  .under-construction {
-    font-size: 6vw;
-    font-weight: bold;
-  }
-  
-  .contact-us {
-    margin-top: 8vh;
-  }
-  
-  .contact-us-title {
-    font-weight: bold;
-    font-size: 2vw;
-    margin-bottom: 1vh;
+  .logo {
+    width: 30vw;
   }
 }
